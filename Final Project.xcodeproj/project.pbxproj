@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4C6C99762D81723F00A926BF /* Ingredient+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C99742D81723F00A926BF /* Ingredient+CoreDataProperties.swift */; };
+		4C6C99772D81723F00A926BF /* Ingredient+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C99732D81723F00A926BF /* Ingredient+CoreDataClass.swift */; };
+		4C6C99782D81723F00A926BF /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C99752D81723F00A926BF /* Recipe+CoreDataProperties.swift */; };
+		4C6C997A2D81727200A926BF /* Recipe+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C99792D81727200A926BF /* Recipe+CoreDataClass.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		4C6C99042D7EC57B00A926BF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +34,10 @@
 		4C6C98EA2D7EC57A00A926BF /* Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C6C99032D7EC57B00A926BF /* Final ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C6C990D2D7EC57B00A926BF /* Final ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6C99732D81723F00A926BF /* Ingredient+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ingredient+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4C6C99742D81723F00A926BF /* Ingredient+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ingredient+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4C6C99752D81723F00A926BF /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4C6C99792D81727200A926BF /* Recipe+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe+CoreDataClass.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +99,10 @@
 		4C6C98E12D7EC57A00A926BF = {
 			isa = PBXGroup;
 			children = (
+				4C6C99792D81727200A926BF /* Recipe+CoreDataClass.swift */,
+				4C6C99732D81723F00A926BF /* Ingredient+CoreDataClass.swift */,
+				4C6C99742D81723F00A926BF /* Ingredient+CoreDataProperties.swift */,
+				4C6C99752D81723F00A926BF /* Recipe+CoreDataProperties.swift */,
 				4C6C98EC2D7EC57A00A926BF /* Final Project */,
 				4C6C99062D7EC57B00A926BF /* Final ProjectTests */,
 				4C6C99102D7EC57B00A926BF /* Final ProjectUITests */,
@@ -249,6 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C6C997A2D81727200A926BF /* Recipe+CoreDataClass.swift in Sources */,
+				4C6C99762D81723F00A926BF /* Ingredient+CoreDataProperties.swift in Sources */,
+				4C6C99772D81723F00A926BF /* Ingredient+CoreDataClass.swift in Sources */,
+				4C6C99782D81723F00A926BF /* Recipe+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

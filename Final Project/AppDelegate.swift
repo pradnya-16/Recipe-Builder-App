@@ -4,7 +4,6 @@
 //
 //  Created by Pradnya Kadam on 3/10/25.
 //
-
 import UIKit
 import CoreData
 
@@ -14,9 +13,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Preload data if needed
+        CoreDataManager.shared.preloadDataIfNeeded()
+            
         return true
     }
+    
 
     // MARK: UISceneSession Lifecycle
 
@@ -76,6 +78,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
+
+
 
 }
 
