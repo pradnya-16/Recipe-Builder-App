@@ -22,7 +22,6 @@ class FavoritesViewController: UIViewController, UITableViewDataSource, UITableV
         tableView.dataSource = self
         tableView.delegate = self
         fetchFavorites()
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "FavoriteCell")
 
     }
     
